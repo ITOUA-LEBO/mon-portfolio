@@ -13,12 +13,12 @@ const About: React.FC = () => {
 
   const leftVariants = {
     hidden: { opacity: 0, x: -40 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.9, ease: "easeOut" } },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.9 } },
   };
 
   const rightVariants = {
     hidden: { opacity: 0, x: 40 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.9, ease: "easeOut" } },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.9 } },
   };
 
   return (
